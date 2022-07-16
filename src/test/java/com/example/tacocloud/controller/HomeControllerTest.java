@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 
-@WebMvcTest(HomeController.class)
+@WebMvcTest
 class HomeControllerTest {
 
     @Autowired
