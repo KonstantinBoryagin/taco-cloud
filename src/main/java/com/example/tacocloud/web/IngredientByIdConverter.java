@@ -1,6 +1,6 @@
 package com.example.tacocloud.web;
 
-import com.example.tacocloud.Ingredient;
+import com.example.tacocloud.tacos.Ingredient;
 import com.example.tacocloud.data.IngredientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;

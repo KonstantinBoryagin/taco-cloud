@@ -1,9 +1,9 @@
 package com.example.tacocloud.web;
 
-import com.example.tacocloud.Ingredient;
-import com.example.tacocloud.Ingredient.Type;
-import com.example.tacocloud.Taco;
-import com.example.tacocloud.TacoOrder;
+import com.example.tacocloud.tacos.Ingredient;
+import com.example.tacocloud.tacos.Ingredient.Type;
+import com.example.tacocloud.tacos.Taco;
+import com.example.tacocloud.tacos.TacoOrder;
 import com.example.tacocloud.data.IngredientRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,6 @@ import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
