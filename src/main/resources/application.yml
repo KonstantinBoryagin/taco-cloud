@@ -3,4 +3,12 @@ spring:
     generate-unique-name: false
     name: tacocloud
 
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          github:
+#          clientId: nokss89@gmail.com
+#          clientSecret:
+#          scope: email, public_profile
 
